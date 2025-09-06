@@ -1,0 +1,39 @@
+# Archivos de entorno y llaves
+.env
+*.env
+*.key
+*.pem
+
+# Archivos de configuración locales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Archivos de logs
+*.log
+
+# Directorios de dependencias y entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de sistema (Windows / macOS)
+Thumbs.db
+.DS_Store
+
+# Archivos de pruebas temporales
+targets.txt
+output.csv
+output.json
+
+# Archivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
